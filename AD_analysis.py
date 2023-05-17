@@ -36,11 +36,13 @@ class AD_analysis():
 
 
         plt.scatter(self.lev_values, self.s_new)
+        plt.axhline(y=self.S_thres, color='r', linestyle='-', linewidth = 2.0)  #plots a horizontal line to denote the max and min y threshold
+        plt.axhline(y = -self.S_thres, color = "r", linestyle = "-", linewidth = 2.0) #plots another horizontal line at threshold -3
+        plt.axvline(x = self.h_thres, color = "r", linestyle = "-", linewidth = 2.0) #plots a vertical line to denote the H_threshold
         
 
         plt.xlabel("Leverage Values")
         plt.ylabel("Residuals")
         plt.title("Applicability Domain")
         plt.show()
-  
   
