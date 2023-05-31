@@ -1,11 +1,8 @@
-from sklearn.metrics import matthews_corrcoef
-from sklearn.metrics import roc_curve, roc_auc_score
-
-import matplotlib.pyplot as plt
-from sklearn.metrics import roc_curve, roc_auc_score
-
-
 def evaluate(X_test, y_test, model, title="model"):
+    from sklearn.metrics import matthews_corrcoef
+    from sklearn.metrics import roc_auc_score
+    import pandas as pd
+    
     y_pred = model.predict(X_test)
     pred_proba = model.predict_proba(X_test)[:, 1]
 
@@ -31,6 +28,9 @@ def evaluate(X_test, y_test, model, title="model"):
 
 
 def plot_roc(X_test, y_test, model):
+    import matplotlib.pyplot as plt
+    from sklearn.metrics import roc_curve, roc_auc_score
+    
     y_pred = model.predict(X_test)
     pred_proba = model.predict_proba(X_test)[:, 1]
 
