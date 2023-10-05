@@ -16,6 +16,6 @@ Data from the project was obtained from PUBCHEM (AID 651615)
 
 
 # VIDEO OF WORKING APP
-User interface of the following project can be found here
+GRAPHICAL USER INTERFACE
 
 ![vp16](https://github.com/Ghaby-X/VP16-inhibitors-pred/assets/105595126/4869f701-9063-4fea-ba24-0b2518277c54)
