@@ -14,6 +14,8 @@ Data from the project was obtained from PUBCHEM (AID 651615)
   
   User-Friendly Interface: Our project includes user-friendly interfaces for researchers and scientists to easily input chemical compounds and receive inhibitor predictions.
 
+  Note: the model used in predicting the inhibitors of VP16 is the random forest model on morgan descriptors
+
 
 # VIDEO OF WORKING APP
 GRAPHICAL USER INTERFACE
