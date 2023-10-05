@@ -14,3 +14,7 @@ Data from the project was obtained from PUBCHEM (AID 651615)
   
   User-Friendly Interface: Our project includes user-friendly interfaces for researchers and scientists to easily input chemical compounds and receive inhibitor predictions.
 
+
+# VIDEO OF WORKING APP
+User interface of the following project can be found here
+![vp16](https://github.com/Ghaby-X/VP16-inhibitors-pred/assets/105595126/4869f701-9063-4fea-ba24-0b2518277c54)
