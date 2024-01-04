@@ -23,4 +23,4 @@ GRAPHICAL USER INTERFACE
 ![vp16](https://github.com/Ghaby-X/VP16-inhibitors-pred/assets/105595126/4869f701-9063-4fea-ba24-0b2518277c54)
 
 
-Note: This GUI has not been hosted, however the complete flask app can be found in the .rar file
+Note: This GUI has not been hosted, however the complete flask app can be found in my VP16i-finder repository
